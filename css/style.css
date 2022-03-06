@@ -10,3 +10,24 @@
     margin: 0 auto;
     padding: 1%;
 }
+
+.text-right{
+    text-align: right;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.logo{
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
