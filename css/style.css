@@ -20,6 +20,14 @@ a:hover{
     padding: 1%;
 }
 
+.img-responsive{
+    width: 100%;
+}
+
+.img-curve{
+    border-radius: 15px;
+}
+
 .text-right{
     text-align: right;
 }
@@ -27,6 +35,31 @@ a:hover{
 .text-center{
     text-align: center;
 }
+
+.text-white{
+    color: white;
+}
+
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.float-container{
+    position: relative;
+}
+
+.float-text{
+    position: absolute;
+    bottom: 30px;
+    left: 40%;
+}
+
+
 
 /* Navbar css styling */
 .menu{
@@ -83,4 +116,16 @@ line-height: 77px;
 
 .btn-primary:hover{
     background-color: #ff4757;
+}
+
+/* CSS for categories*/
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    border: 1px solid black;
+    width: 28%;
+    float: left;
+    margin: 2%;
 }
