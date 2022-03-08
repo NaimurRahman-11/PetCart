@@ -116,6 +116,7 @@ line-height: 77px;
 
 .btn-primary:hover{
     background-color: #ff4757;
+    color: white;
 }
 
 /* CSS for categories*/
@@ -128,4 +129,19 @@ line-height: 77px;
     width: 28%;
     float: left;
     margin: 2%;
+}
+
+/* CSS for pet-menu*/
+.pet-menubox{
+    border: 1px solid black;
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+}
+
+.pet-menu{
+    background-color: #ececec;
+    padding: 4% 0;
 }
