@@ -14,7 +14,6 @@ a:hover{
 }
 
 .container{
-    border: 1px solid black;
     width: 80%;
     margin: 0 auto;
     padding: 1%;
@@ -43,6 +42,7 @@ a:hover{
 h2{
     color: #2f3542;
     font-size: 2rem;
+    margin-bottom: 2%;
 }
 
 h3{
@@ -125,7 +125,6 @@ line-height: 77px;
 }
 
 .box-3{
-    border: 1px solid black;
     width: 28%;
     float: left;
     margin: 2%;
@@ -133,7 +132,6 @@ line-height: 77px;
 
 /* CSS for pet-menu*/
 .pet-menubox{
-    border: 1px solid black;
     width: 43%;
     margin: 1%;
     padding: 2%;
@@ -166,4 +164,69 @@ line-height: 77px;
 .pet-detail{
     font-size: 1rem;
     color: #747d8c;
+}
+
+/*CSS for social section*/
+.social ul{
+    list-style-type: none;
+}
+
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/*CSS for mobile screen*/
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .pet-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .pet-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+
+    h2{
+        margin-bottom: 10%;
+    }
+
+    .pet-menu{
+        padding: 20% 0;
+    }
+
+    .pet-menubox{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+
+    .box-3{
+        width: 90%;
+        margin: 4% auto;
+    }
+
+    .social{
+        padding: 5% 0;
+    }
 }
