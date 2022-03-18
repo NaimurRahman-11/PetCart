@@ -139,9 +139,31 @@ line-height: 77px;
     padding: 2%;
     float: left;
     background-color: white;
+    border-radius: 15px;
 }
 
 .pet-menu{
     background-color: #ececec;
     padding: 4% 0;
+}
+
+.pet-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.pet-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.pet-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.pet-detail{
+    font-size: 1rem;
+    color: #747d8c;
 }
